@@ -1,0 +1,15 @@
+/* ImageComponent.css */
+
+.image-container {
+    position: absolute; /* Posición absoluta para colocarla en la parte izquierda */
+    top: 120px;
+    left: -650px;
+    bottom: 50px;
+    width: 500px; /* Ancho de la imagen */
+  }
+  
+  .main-image {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+  

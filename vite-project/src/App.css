@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajustado para ocupar toda la altura visible */
+  background: linear-gradient(to right, #b4aeae 50%, #fff 50%);
+  overflow-y: hidden; /* Evita el scroll vertical */
+}
+
+.app-container {
+  display: flex;
+  justify-content: flex-start; /* Alinea el contenido hacia la izquierda */
+  align-items: flex-start; /* Alinea el contenido hacia arriba */
+  height: 100vh;
+  padding-top: 200px; /* Ajusta el espacio superior según sea necesario */
+  padding-left: 800px; /* Ajusta el espacio izquierdo según sea necesario */
+}

@@ -1,0 +1,32 @@
+/* InfoPage.css */
+
+.info-container {
+    max-width: 800px;
+    margin: -200px auto 0; /* Ajusta el margen superior según sea necesario */
+    padding: 10px;
+    border-radius: 8px;
+    
+    /* Alineación del contenido hacia la izquierda */
+    text-align: left;
+    
+    /* Margen izquierdo ajustable */
+    margin-left: -700px; /* Puedes ajustar este valor según sea necesario */
+  }
+  
+  .info-title {
+    font-size: 28px;
+    color: #333; /* Color de texto */
+    margin-bottom: 20px;
+  }
+  
+  .info-content {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666; /* Color de texto secundario */
+  }
+  
+  .image-container {
+    margin-left: 800px; /* Mueve la imagen hacia la derecha */
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+  }
+  

@@ -1,0 +1,25 @@
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .styled-input {
+    width: 100%;
+    padding: 8px 5px;
+    border: none; /* Elimina el borde */
+    outline: none;
+    font-size: 16px;
+    background-color: transparent; /* Fondo transparente */
+    transition: border-color 0.3s;
+    border-bottom: 1px solid #ccc; /* Línea inferior inicial */
+  }
+  
+  .styled-input::placeholder {
+    color: #000000;
+    font-size: 16px;
+  }
+  
+  .styled-input:focus {
+    border-bottom-color: #000000; /* Color de la línea al enfocar */
+  }
+  

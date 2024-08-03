@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Socket.IO Test Client</title>
+  <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const socket = io('http://192.168.127.130:4000');
+
+      socket.on('connect', () => {
+        console.log('Conectado al servidor');
+      });
+
+      socket.on('updateTable', (data) => {
+        console.log('Actualización de tabla:', data);
+      });
+
+      socket.on('disconnect', () => {
+        console.log('Desconectado del servidor');
+      });
+
+      // Pruebas de eventos
+      socket.emit('register', { username: 'usuario', password: 'contraseña' });
+      socket.emit('login', { username: 'usuario', password: 'contraseña' });
+      socket.emit('updateTable', { key: 'value' });
+    });
+  </script>
+</head>
+<body>
+  <h1>Cliente de Prueba Socket.IO</h1>
+</body>
+</html>
